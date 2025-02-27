@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<script>
+  window.location.replace("{{ page.pdf | prepend: 'assets/pdf/' | relative_url }}");
+</script>
+
+<p>If you are not automatically redirected, <a href="{{ page.pdf | prepend: 'assets/pdf/' | relative_url }}">click here</a>.</p>

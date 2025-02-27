@@ -1,0 +1,67 @@
+name: Update About Page from External README
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  list_repositories:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download README.md from external repo
+        run: |
+          mkdir -p temp
+          curl -f -o temp/README.md https://raw.githubusercontent.com/mpek29/MPek29/master/README.md
+          if [ $? -ne 0 ]; then 
+            echo "❌ Échec du téléchargement du README.md"; 
+            exit 1
+          fi
+
+      - name: Extract content before "## 🛠️ Skills"
+        run: |
+          awk '/## 🛠️ Skills/ {exit} {print}' temp/README.md > temp/extracted.md
+
+      - name: Clean extracted README.md
+        run: |
+          # Supprimer la phrase "🚀 About Me"
+          sed -i '/🚀 About Me/d' temp/extracted.md
+
+          # Supprimer tous les titres Markdown en supprimant les "#"
+          sed -i 's/^#* //g' temp/extracted.md
+
+      - name: Convert extracted content to about.md
+        run: |
+          mkdir -p _abouts
+          
+          # Création de la structure de about.md
+          cat <<EOF > _abouts/about.md
+          ---
+          layout: page
+          title: About
+          ---
+          
+          EOF
+          
+          # Ajouter la section extraite et nettoyée
+          cat temp/extracted.md >> _abouts/about.md
+
+      - name: Check for changes
+        run: |
+          if git diff --quiet _abouts/about.md; then
+            echo "✅ Aucun changement détecté, fin du workflow."
+            exit 0
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add _abouts/about.md
+          git commit -m "🔄 Auto-update about.md from external README.md" || exit 0
+          git push
