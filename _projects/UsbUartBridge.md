@@ -7,8 +7,8 @@ img: assets/img/projects/UsbUartBridge/main.png
 importance: 1
 git: https://github.com/mpek29/UsbUartBridge
 github: https://github.com/mpek29/UsbUartBridge
-category: Other
-subcategory: General
+category: Electronics
+subcategory: PCB Design
 ---
 
 
