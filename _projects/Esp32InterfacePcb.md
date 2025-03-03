@@ -7,8 +7,8 @@ img: assets/img/projects/Esp32InterfacePcb/main.png
 importance: 1
 git: https://github.com/mpek29/Esp32InterfacePcb
 github: https://github.com/mpek29/Esp32InterfacePcb
-category: Other
-subcategory: General
+category: Electronics
+subcategory: PCB Design
 ---
 
 
