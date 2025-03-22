@@ -7,8 +7,8 @@ img: assets/img/projects/Max98357I2SAmp/main.png
 importance: 1
 git: https://github.com/mpek29/Max98357I2SAmp
 github: https://github.com/mpek29/Max98357I2SAmp
-category: Other
-subcategory: General
+category: Electronics
+subcategory: PCB Design
 ---
 
 
