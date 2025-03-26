@@ -107,11 +107,11 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 collections:
+  abouts:
+    output: true
   projects:
     output: true
     permalink: /projects/:path/
-  abouts:
-    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
