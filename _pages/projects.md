@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Here's a list of projects I've completed or participated in.
 nav: true
-nav_order: 2
+nav_order: 1
 pdf: portfolio.pdf
 display_categories: ["Electronics", "Computer Science", "Mechanical Engineering"]
 
