@@ -37,13 +37,13 @@
 
                     {%- for page in site.pages -%}
                     {% if page.permalink == '/' %}
-                    {% assign portfolio_title = page.title %}
+                    {% assign project_title = page.title %}
                     {% endif %}
                     {% endfor %}
 
-                    <!-- Portfolio -->
+                    <!-- Projects -->
                     <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                        <a class="nav-link" href="{{ '/' | relative_url }}">{{ portfolio_title }}
+                        <a class="nav-link" href="{{ '/' | relative_url }}">{{ project_title }}
                             {%- if page.permalink == '/' -%}
                             <span class="sr-only">(current)</span>
                             {%- endif -%}
