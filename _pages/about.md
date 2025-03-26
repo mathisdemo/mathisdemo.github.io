@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /about/
-nav_order: 1
+nav_order: 2
 profile:
   align: right
   image: flo_pic.png
