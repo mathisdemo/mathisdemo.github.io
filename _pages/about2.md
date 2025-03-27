@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About2
-permalink: /about2/
+title: About
+permalink: /about/
 nav_order: 3
 profile:
   align: right
@@ -12,3 +12,5 @@ news: false
 selected_papers: false
 social: true
 ---
+{% assign about = site.abouts | first %}
+{{ about.content }}
