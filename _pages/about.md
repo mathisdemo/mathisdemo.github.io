@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-permalink: /about/
+title: About2
+permalink: /about2/
 nav_order: 3
 profile:
   align: right
