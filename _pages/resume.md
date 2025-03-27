@@ -1,8 +1,8 @@
 ---
 layout: resume
 permalink: /resume/
-title: Resume
+title: Resumeee
 nav: true
-nav_order: 4
+nav_order: 2
 pdf: PASCO_Florian.pdf
 ---
