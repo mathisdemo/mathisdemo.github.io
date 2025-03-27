@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Apropos
+title: About
 permalink: /about
 description: Here's a list of projects I've completed or participated in.
 nav: true
