@@ -12,5 +12,3 @@ news: false
 selected_papers: false
 social: true
 ---
-{% assign about = site.abouts | first %}
-{{ about.content }}
