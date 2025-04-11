@@ -35,6 +35,14 @@ subcategory: Firmware Development
 | 📺 **SPI Communication**   | Control an LCD display using SPI.             |
 | 🎚️ **ADC Usage**         | Read potentiometer angles through ADC.        |
 
+## ApplicationShield Schematic
+
+{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/app_shield_sch.png" width="300" %}
+
+## Nucleo-F411RE Extension Schematic
+
+{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/nucleof411re_ext_con.png" width="300" %}
+
 ## 🎛️ Example Applications
 
 1. **GPIO Test**: Read/write values and generate PWM to control LED brightness on the board.
