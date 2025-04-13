@@ -154,7 +154,7 @@ jobs:
             README_PART=$(echo "$README_PART" | sed '/!\[Main Preview\](assets\/img\/main.png)/d')
             README_PART=$(echo "$README_PART" | sed -E "s|(## [^\n]+)|\1\n|g")
             README_PART=$(echo "$README_PART" | sed -E "s|(### [^\n]+)|\1\n|g")
-            README_PART=$(echo "$README_PART" | sed -E "s|<img src=\"assets/img/([^\"]+).png\"[^>]*>|{% include image.html path=\"assets/img/projects/$title/\1.png\" width=\"300\" %}|g")
+            README_PART=$(echo "$README_PART" | sed -E "s|<img src=\"assets/img/([^\"]+).png\"[^>]*>|{% include image.html path=\"assets/img/projects/$title/\1.png\" width=\"100%\" %}|g")
 
             markdown_content+="$README_PART\n"
             
