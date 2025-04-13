@@ -34,5 +34,5 @@ subcategory: Software Development
 
 ## 📐 Database Structure & Design
 
-{% include image.html path="assets/img/projects/WorldTourRidersDatabase/uml_diagram.png" width="300" %}
+{% include image.html path="assets/img/projects/WorldTourRidersDatabase/uml_diagram.png" width="100%" %}
 

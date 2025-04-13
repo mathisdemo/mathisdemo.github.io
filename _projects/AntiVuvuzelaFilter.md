@@ -38,5 +38,5 @@ subcategory: Signal and Image Processing
 
 | 🛠️ LTSpice Circuit | 📜 Simulation  |
 |-----------|-----------|
-| {% include image.html path="assets/img/projects/AntiVuvuzelaFilter/assembly.png" width="300" %} | {% include image.html path="assets/img/projects/AntiVuvuzelaFilter/simulation.png" width="300" %} |
+| {% include image.html path="assets/img/projects/AntiVuvuzelaFilter/assembly.png" width="100%" %} | {% include image.html path="assets/img/projects/AntiVuvuzelaFilter/simulation.png" width="100%" %} |
 

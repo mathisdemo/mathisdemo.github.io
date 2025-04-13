@@ -37,5 +37,5 @@ subcategory: Software Development
 
 | 🎮 Main Menu | 📊 In-Game Statistics | 🏆 Endgame Rankings |
 |-----------|-----------|-----------|
-| {% include image.html path="assets/img/projects/VATN-WaterGame/main_menu.png" width="300" %} | {% include image.html path="assets/img/projects/VATN-WaterGame/game_stats.png" width="300" %} | {% include image.html path="assets/img/projects/VATN-WaterGame/rankings.png" width="300" %} |
+| {% include image.html path="assets/img/projects/VATN-WaterGame/main_menu.png" width="100%" %} | {% include image.html path="assets/img/projects/VATN-WaterGame/game_stats.png" width="100%" %} | {% include image.html path="assets/img/projects/VATN-WaterGame/rankings.png" width="100%" %} |
 

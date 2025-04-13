@@ -38,5 +38,5 @@ subcategory: PCB Design
 
 | 📜 Schematic | 🖥️ PCB Layout | 🏗️ 3D |
 |-----------|-----------|-----------|
-| {% include image.html path="assets/img/projects/UsbUartBridge/schematic.png" width="300" %} | {% include image.html path="assets/img/projects/UsbUartBridge/pcb_layout.png" width="300" %} | {% include image.html path="assets/img/projects/UsbUartBridge/3d.png" width="300" %} |
+| {% include image.html path="assets/img/projects/UsbUartBridge/schematic.png" width="100%" %} | {% include image.html path="assets/img/projects/UsbUartBridge/pcb_layout.png" width="100%" %} | {% include image.html path="assets/img/projects/UsbUartBridge/3d.png" width="100%" %} |
 

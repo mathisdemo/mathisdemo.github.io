@@ -37,5 +37,5 @@ The **Battery Level Indicator** is an open-source project designed to visually d
 
 | 📜 Schematic | 🖥️ PCB Layout | 🏗️ 3D |
 |-----------|-----------|-----------|
-| {% include image.html path="assets/img/projects/BatteryLevelIndicator/schematic.png" width="300" %} | {% include image.html path="assets/img/projects/BatteryLevelIndicator/pcb_layout.png" width="300" %} | {% include image.html path="assets/img/projects/BatteryLevelIndicator/3d.png" width="300" %} |
+| {% include image.html path="assets/img/projects/BatteryLevelIndicator/schematic.png" width="100%" %} | {% include image.html path="assets/img/projects/BatteryLevelIndicator/pcb_layout.png" width="100%" %} | {% include image.html path="assets/img/projects/BatteryLevelIndicator/3d.png" width="100%" %} |
 

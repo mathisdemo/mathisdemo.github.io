@@ -37,11 +37,11 @@ subcategory: Firmware Development
 
 ## ApplicationShield Schematic
 
-{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/app_shield_sch.png" width="300" %}
+{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/app_shield_sch.png" width="100%" %}
 
 ## Nucleo-F411RE Extension Schematic
 
-{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/nucleof411re_ext_con.png" width="300" %}
+{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/nucleof411re_ext_con.png" width="100%" %}
 
 ## 🎛️ Example Applications
 

@@ -39,5 +39,5 @@ This is an open-source KiCad redesign of the **Adafruit MAX98357 I2S Amp Breakou
 
 | 📜 Schematic | 🖥️ PCB Layout | 🏗️ 3D |
 |-----------|-----------|-----------|
-| {% include image.html path="assets/img/projects/Max98357I2SAmp/schematic.png" width="300" %} | {% include image.html path="assets/img/projects/Max98357I2SAmp/pcb_layout.png" width="300" %} | {% include image.html path="assets/img/projects/Max98357I2SAmp/3d.png" width="300" %} |
+| {% include image.html path="assets/img/projects/Max98357I2SAmp/schematic.png" width="100%" %} | {% include image.html path="assets/img/projects/Max98357I2SAmp/pcb_layout.png" width="100%" %} | {% include image.html path="assets/img/projects/Max98357I2SAmp/3d.png" width="100%" %} |
 

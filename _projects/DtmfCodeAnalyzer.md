@@ -35,5 +35,5 @@ subcategory: Signal and Image Processing
 
 | 🎵 Frequency Vector Representation | 🧮 Euclidean Projection | 🎛️ Filtering |
 |-----------|-----------|-----------|
-| {% include image.html path="assets/img/projects/DtmfCodeAnalyzer/frequency_vectors.png" width="300" %} | {% include image.html path="assets/img/projects/DtmfCodeAnalyzer/euclidean_projection.png" width="300" %} | {% include image.html path="assets/img/projects/DtmfCodeAnalyzer/filtering.png" width="300" %} |
+| {% include image.html path="assets/img/projects/DtmfCodeAnalyzer/frequency_vectors.png" width="100%" %} | {% include image.html path="assets/img/projects/DtmfCodeAnalyzer/euclidean_projection.png" width="100%" %} | {% include image.html path="assets/img/projects/DtmfCodeAnalyzer/filtering.png" width="100%" %} |
 

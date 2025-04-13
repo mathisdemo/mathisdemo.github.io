@@ -32,8 +32,8 @@ CubeCourse2D is a fast-paced platformer where the player must survive as long as
 
 
 <div style="display: flex; justify-content: space-between;">
-    {% include image.html path="assets/img/projects/CubeCourse2D/1.png" width="300" %}
-    {% include image.html path="assets/img/projects/CubeCourse2D/2.png" width="300" %}
-    {% include image.html path="assets/img/projects/CubeCourse2D/3.png" width="300" %}
+    {% include image.html path="assets/img/projects/CubeCourse2D/1.png" width="100%" %}
+    {% include image.html path="assets/img/projects/CubeCourse2D/2.png" width="100%" %}
+    {% include image.html path="assets/img/projects/CubeCourse2D/3.png" width="100%" %}
 </div>
 
