@@ -35,6 +35,14 @@ subcategory: Firmware Development
 | 📺 **SPI Communication**   | Control an LCD display using SPI.             |
 | 🎚️ **ADC Usage**         | Read potentiometer angles through ADC.        |
 
+## ApplicationShield Schematic
+
+{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/app_shield_sch.png" width="100%" %}
+
+## Nucleo-F411RE Extension Schematic
+
+{% include image.html path="assets/img/projects/NucleoF411RE-ApplicationShield/nucleof411re_ext_con.png" width="100%" %}
+
 ## 🎛️ Example Applications
 
 
@@ -48,10 +56,10 @@ Utilize **PWM (Pulse Width Modulation)** to control the brightness of an LED. By
 
 Configure a GPIO pin as an input to detect changes from the joystick. Using **interrupts**, the system can react instantly to joystick movements or button presses. This setup allows for immediate actions, such as controlling LEDs or triggering other components based on user input.
 
-### 3. **ADC Potentiometer Reading**
+### 3. **ADC Potentiometer Reading**  
 
 
-Use the **ADC (Analog-to-Digital Converter)** to read values from a potentiometer. This can be applied to adjust parameters like light intensity or motor speed based on the position of the potentiometer. 
+Use the **ADC (Analog-to-Digital Converter)** to read values from a potentiometer. These values can then be used to control parameters such as the brightness of an LED through **PWM (Pulse-Width Modulation)**, allowing the LED intensity to vary according to the potentiometer’s position.
 
 ### 4. **Button Press Detection with Timer**
 
