@@ -7,8 +7,8 @@ img: assets/img/projects/BCHDecoderVHDL/main.png
 importance: 1
 git: https://github.com/mpek29/BCHDecoderVHDL
 github: https://github.com/mpek29/BCHDecoderVHDL
-category: Other
-subcategory: General
+category: Electronics
+subcategory: Digital System Design
 ---
 
 
@@ -34,22 +34,22 @@ subcategory: General
 | 🖥️ **Quartus Project** | Integrated via Qsys / Platform Designer |
 | 📦 **Open-source** | Fully modifiable and extensible HDL source code |
 
-## 📐 Design Architecture Preview  
+## 📐 Design Architecture Preview
 
-| 🔧 Decoder Core | 🔗 Avalon Interface | 🖥️ Quartus System |
-|------------------|----------------------|--------------------|
-| {% include image.html path="assets/img/projects/BCHDecoderVHDL/bch_core.png" width="100%" %} | {% include image.html path="assets/img/projects/BCHDecoderVHDL/avalon_iface.png" width="100%" %} | {% include image.html path="assets/img/projects/BCHDecoderVHDL/qsys_layout.png" width="100%" %} |
+| ⚙️ Internal Architecture | 🖥️ Qsys Integration |
+|--------------------------|----------------------|
+| {% include image.html path="assets/img/projects/BCHDecoderVHDL/bch_core_architecture.png" width="100%" %} | {% include image.html path="assets/img/projects/BCHDecoderVHDL/qsys_layout.png" width="100%" %} |
 
 ## 🗂️ Project Structure
 
 ```bash
 BCHDecoderVHDL/
-├── src/ # VHDL source files (core, control, interface)
-├── sim/ # VHDL testbenches
-├── qsys/ # Qsys/Platform Designer files
-├── quartus_project/ # Quartus project targeting DE0-CV
-├── sw/ # Nios II C code
-└── assets/img/ # Documentation images
+├── ip/                  
+│   └── BCH/                
+│       ├── bch.vhd         # VHDL source files
+│       └── simulation/     # VHDL testbenches
+├── DE0_CV.qpf              # Quartus project file
+├── software/               # Scripts or files related to software development
 ```
 
 ## 📦 Use Cases
