@@ -14,7 +14,7 @@ subcategory_order:
     - Cybersecurity
     - Software Development
     - Data Engineering
-    - DevOps and Automation
+    - DevOps & Automation
     - Artificial Intelligence
     - Documentation
   Electronics:
