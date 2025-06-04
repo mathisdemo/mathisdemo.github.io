@@ -47,40 +47,40 @@ subcategory: Firmware Development
 ## 🎛️ Example Applications
 
 
-### 1. LED Brightness via PWM
+### 1. **PWM via LED**
 
 
-Control LED brightness using the ESP32 LEDC PWM module by adjusting duty cycle.
+Utilize **PWM (Pulse Width Modulation)** to control the brightness of an LED. By adjusting the duty cycle, the LED can be dimmed or brightened, allowing for various visual effects. This is particularly useful for applications such as light dimming or motor speed control.
 
-### 2. Joystick Input via GPIO
-
-
-Read digital joystick states and map them to LED or system responses.
-
-### 3. Potentiometer Reading via ADC
+### 2. **GPIO Input via Joystick**
 
 
-Read analog voltage from a potentiometer and convert it to a control parameter (e.g., LED brightness).
+Use the **GPIO** to read the logical levels from the joystick. The program update outputs such as LEDs based on the current status of the joystick buttons.
 
-### 4. Sound Output via PWM
-
-
-Generate sound tones via a piezo speaker by varying PWM frequency.
-
-### 5. UART Communication
+### 3. **ADC Potentiometer Reading**  
 
 
-Exchange messages with a PC over UART for logging or receiving commands.
+Use the **ADC (Analog-to-Digital Converter)** to read values from a potentiometer. These values can then be used to control parameters such as the brightness of an LED through **PWM (Pulse-Width Modulation)**, allowing the LED intensity to vary according to the potentiometer’s position.
 
-### 6. I2C Temperature Reading
-
-
-Read ambient temperature from an LM75 sensor via the I2C protocol.
-
-### 7. SPI LCD Display
+### 4. **PWM via Speaker**
 
 
-Show system status, sensor values, or control messages on an SPI-connected LCD.
+Utilize **PWM (Pulse Width Modulation)** to generate sounds via a speaker. By varying the **frequency**, not the duty cycle, different tones can be produced. The duty cycle remains constant while frequency changes create distinct audible notes. This method is commonly used for sound generation and simple audio signals."
+
+### 5. **Serial Communication**
+
+
+Establish **serial communication** between the UnoD1R32 and a PC for data exchange. This can be used for debugging, sending sensor readings, or receiving commands from the computer.
+
+### 6. **I2C Temperature Reading**
+
+
+Use the **I2C protocol** to communicate with temperature sensors such as the LM75. This data can then be used for environmental monitoring or to trigger actions based on temperature thresholds.
+
+### 7. **SPI LCD Control**
+
+
+Use the **SPI protocol** to control an LCD display. This application could display system status, sensor readings, or any other relevant information on a small screen.
 
 ## 📁 Code Structure
 
