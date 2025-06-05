@@ -38,11 +38,11 @@ subcategory: Firmware Development
 
 ## 🔌 Application Shield Schematics
 
-![Application Shield](assets/img/app_shield_sch.png)
+{% include image.html path="assets/img/projects/UnoD1R32-ApplicationShield/app_shield_sch.png" width="100%" %}
 
 ## 🧭 UNO D1 R32 Pinout
 
-![UNO D1 R32 Pinout](assets/img/uno_d1_r32_sch.png)
+{% include image.html path="assets/img/projects/UnoD1R32-ApplicationShield/uno_d1_r32_sch.png" width="100%" %}
 
 ## 🎛️ Example Applications
 
