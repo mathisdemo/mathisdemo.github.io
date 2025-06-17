@@ -22,7 +22,7 @@ A beautiful, simple, and clean LaTeX template designed for ENIB students who wan
 
 ## 📝 Getting Started
 
-To use this template, I recommend following [this tutorial](https://mpek29.github.io/learning/technical/use_template_sharelatex/). 
+To use this template, I recommend following [this tutorial](https://florianpasco.com/learning/innovation/use_template_sharelatex/). 
 
 After that, simply write your LaTeX code in the `body.tex` file.
 
