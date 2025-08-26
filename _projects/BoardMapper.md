@@ -64,6 +64,7 @@ BoardMapper is an open-source tool designed to automatically generate PCB layout
      - **Y**: Quartz / Resonator
      - **SP**: Speaker
      - **ANT**: Antenna
+     - **BUZ**: Buzzer
      
      **LabelImg Shortcuts**:
      - ✏️ **W**: Draw a new rectangular bounding box (RectBox)
