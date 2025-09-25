@@ -11,6 +11,7 @@ category: Electronics
 subcategory: PCB Design
 ---
 
+
 **BreizelecInternReport2025** contains the detailed internship report documenting my work as an Assistant Electronics Engineer Intern at Breizelec. The internship focused on diagnostics and reverse engineering of electronic systems in agricultural machinery, including hands-on troubleshooting, circuit repair, and test bench development.
 
 ## 🎯 Purpose  
